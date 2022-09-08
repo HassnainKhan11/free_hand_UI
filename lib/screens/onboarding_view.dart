@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:free_hand_ui/constants/constants.dart';
+import 'package:free_hand_ui/constants/routes_names.dart';
 import 'package:free_hand_ui/models/onboarding.dart';
 
 class OnBoardingView extends StatefulWidget {
@@ -91,7 +92,10 @@ class _OnBoardingViewState extends State<OnBoardingView> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamedAndRemoveUntil(
+                      RoutesNames.homeRoute, (route) => false);
+                },
                 child: Container(
                   height: 55,
                   width: double.infinity,

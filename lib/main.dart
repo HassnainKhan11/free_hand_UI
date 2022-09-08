@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      initialRoute: RoutesNames.onBoardingRoute,
+      initialRoute: RoutesNames.navBarRoute,
       onGenerateRoute: Routes.generateRoute,
     );
   }

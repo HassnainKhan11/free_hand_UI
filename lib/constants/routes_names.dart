@@ -1,6 +1,8 @@
 class RoutesNames {
-  static const onBoardingRoute = '/onBoardingRoute/';
-  static const homeRoute = '/homeRoute/';
-  static const serviceRoute = '/serviceRoute/';
+  static const splashViewRoute = '/splashViewRoute/';
+  static const navBarRoute = '/navBarRoute/';
+  static const onBoardingRoute = '/onBoardingViewRoute/';
+  static const homeRoute = '/homeViewRoute/';
+  static const serviceRoute = '/serviceViewRoute/';
   static const productViewRoute = '/productViewRoute/';
 }

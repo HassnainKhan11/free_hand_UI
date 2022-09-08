@@ -10,6 +10,10 @@ class ProductView extends StatefulWidget {
 class _ProductViewState extends State<ProductView> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: Center(
+        child: Text('Product View'),
+      ),
+    );
   }
 }
