@@ -38,6 +38,7 @@ dependencies:
   lottie: ^1.4.2
   flutter_svg: ^1.1.4
   persistent_bottom_nav_bar: ^4.0.2
+  syncfusion_flutter_sliders: ^20.2.49
 
 dev_dependencies:
   flutter_test:
